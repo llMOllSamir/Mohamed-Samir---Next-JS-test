@@ -49,7 +49,7 @@ export default async function ProductPage({ params }: Props) {
                 <progress max={product.rating.count} color="red" value={Math.round(product.rating.count / 9)}
                     className="w-full rounded-full h-2 flex [&::-webkit-progress-bar]:bg-gray-200 [&::-webkit-progress-bar]:rounded-full [&::-webkit-progress-value]:rounded-full  [&::-webkit-progress-value]:bg-red-600 " />
                 <AddToCart product={product} />
-                <ShareButton shareLink={`http://localhost:3000/products/${product.id}`} type="button" className="flex items-center gap-2 cursor-pointer " />
+                <ShareButton shareLink={`https://fasco-pearl.vercel.app/products/${product.id}`} type="button" className="flex items-center gap-2 cursor-pointer " />
                 <hr className="border-gray-200  my-5" />
                 <div className="flex gap-2 items-center">
                     <LiaShippingFastSolid size={15} />

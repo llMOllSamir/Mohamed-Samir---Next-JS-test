@@ -22,7 +22,7 @@ Fasco is a modern **eCommerce platform** for clothing, built with **Next.js 15**
 1️⃣ Clone the repository:
 
 ```sh
-git clone https://github.com/your-username/fasco.git
+git clone https://github.com/llMOllSamir/Mohamed-Samir---Next-JS-test.git
 cd fasco
 ```
 
